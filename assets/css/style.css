@@ -1885,7 +1885,10 @@ Blog Details Page
 }
 .logoText {
     font-weight: bold;
-    
+    transition: 1s all;
+}
+.logoText:hover {
+    color: black !important;
 }
 .pro-btn {
     font-size: 20px !important;
@@ -1894,3 +1897,42 @@ Blog Details Page
     font-size: 25px;
 }
 
+#carousel {
+    margin-top: 83px; 
+}
+
+.item {
+  height: 150%; 
+}
+.carouselArrow {
+    font-size: 250%;
+    margin-top: 90%;
+    transition: 1s all;
+}
+.carouselArrow:hover {
+    color: black;
+}
+.headline {
+    font-size: 2.5em;
+}
+@media only screen and (max-width: 450px) {
+  
+    #carousel {
+    display: none;
+    }
+    #feature {
+        margin-top: 100px;
+    }
+    .feature_img {
+        display: none;
+    }
+    .work_item_img img {
+        width: 70%;
+    }
+    .service-img {
+        width: 40%;
+    }
+    .attr-nav > ul > li > a {
+    padding:10px 10px;
+    }
+}

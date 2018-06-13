@@ -207,9 +207,6 @@ li.close-full-menu{
 /* Atribute Navigation
 =================================*/
 .attr-nav{
-    float: right;
-    display: inline-block;
-    margin-left: 13px;
     margin-right: -15px;
 }
 
@@ -1215,7 +1212,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     .attr-nav{
-        position: absolute;
+        
         right: 60px;
     }
     
@@ -1398,7 +1395,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     .attr-nav > ul > li.dropdown ul.dropdown-menu{
-        left: -275px;
+        
     }
     
     .top-search .container{
