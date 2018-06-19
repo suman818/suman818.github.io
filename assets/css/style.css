@@ -387,7 +387,7 @@ Button
 .btn-default{
     border: 2px solid;
     border-color:#000000;
-    background-color: transparent;
+    background-color: #ee997b;
     color:#000000;
     padding:0.8rem 2.5rem;
     border-radius: 30px;;
@@ -1885,10 +1885,10 @@ Blog Details Page
 }
 .logoText {
     font-weight: bold;
-    transition: 1s all;
+    transition: .5s all;
 }
 .logoText:hover {
-    color: black !important;
+    color: #d7b740 !important;
 }
 .pro-btn {
     font-size: 20px !important;
@@ -1910,7 +1910,7 @@ Blog Details Page
     transition: 1s all;
 }
 .carouselArrow:hover {
-    color: black;
+    color: #d7b740;
 }
 .headline {
     font-size: 2.5em;
