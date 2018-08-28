@@ -705,9 +705,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     =================================*/    
     .attr-nav > ul > li.dropdown ul.dropdown-menu{
         margin-top: 0;
-        margin-left: 55px;
+     
         width: 250px;
-        left: -250px;
+        
     }
     
     /* Menu Center

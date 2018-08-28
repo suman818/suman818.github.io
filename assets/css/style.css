@@ -387,7 +387,7 @@ Button
 .btn-default{
     border: 2px solid;
     border-color:#000000;
-    background-color: #ee997b;
+    background-color: #d7b740;
     color:#000000;
     padding:0.8rem 2.5rem;
     border-radius: 30px;;
@@ -918,7 +918,8 @@ Nav Menu style
     padding-top: 20px;
 }
 .service-banner{
-    background: url(../images/background/services-bg.jpg) no-repeat bottom center;
+    background: url(../images/slider/slider5.jpg) no-repeat bottom center;
+    margin-top: 3.5%;
 }
 .model-banner{
     background: url(../images/background/model-bg.jpg) no-repeat bottom center;
@@ -1050,6 +1051,25 @@ About section style
     height: 2px;
     background-color: #ee997b;
     z-index: 1;
+}
+
+.product_row{
+    border-bottom: 1px solid #beacac;
+}
+
+.btn-product {
+    border: 2px solid;
+    border-color:#000000;
+    background-color: #d7b740;
+    color:#000000;
+    padding:0.5rem 0.5rem;
+    border-radius: 10px;;
+    margin-bottom: 2rem;
+}
+
+.btn-product:hover {
+    background-color: transparent; !important;
+    color: black;
 }
 
 
@@ -1903,7 +1923,19 @@ Blog Details Page
 
 .item {
   height: 150%; 
+  position: relative;
 }
+
+.carousel-caption {
+    
+    top: 40%;
+    bottom: auto;
+    left: -40%;
+    backface-visibility: hidden;
+    transition: all .2s;
+}
+
+
 .carouselArrow {
     font-size: 250%;
     margin-top: 90%;
@@ -1936,3 +1968,18 @@ Blog Details Page
     padding:10px 10px;
     }
 }
+
+.submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+
